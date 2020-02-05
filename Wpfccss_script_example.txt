@@ -1,0 +1,13 @@
+use(Baz2)
+use(Baz2.Baz2)
+in(Baz2:B0CT01IZ1)
+in(Baz2:A0IT01IZ1)
+in(Baz2:B0CT01IZ1)
+while(Baz2:A0IT01IZ1<5){
+   set(Baz2:A0IT01IZ1,Baz2:A0IT01IZ1+1)
+   out(Baz2:A0IT01IZ1)
+}
+print(Baz2:A0IT01IZ1)
+print(Baz2:B0CT01IZ1)
+close(Baz2)
+close(Baz2.Baz2)
